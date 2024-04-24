@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../src/output.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Lilita+One&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body class="bg-teal-900 font-kalam">
+    <section class="flex flex-col justify-center items-center h-screen gap-10">
+      <div
+        class="border-4 border-purple-400 p-10 flex flex-col gap-8 items-center backdrop:blur-3xl bg-teal-600"
+      >
+        <div>
+          <h1 class="text-6xl text-green-400">COUNTER</h1>
+        </div>
+        <div id="numero" class="text-9xl text-teal-400">0</div>
+        <div>
+          <button
+            id="restar"
+            type="button"
+            class="text-white bg-gradient-to-r from-red-400 via-red-500 to-red-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-red-300 dark:focus:ring-red-800 font-medium rounded-lg text-2xl px-10 py-2.5 text-center me-2 mb-2 hidden"
+          >
+            -
+          </button>
+
+          <button
+            id="añadir"
+            type="button"
+            class="text-white bg-gradient-to-r from-green-400 via-green-500 to-green-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-green-300 dark:focus:ring-green-800 font-medium rounded-lg text-2xl px-10 py-2.5 text-center me-2 mb-2"
+          >
+            +
+          </button>
+
+          <button
+            id="cero"
+            type="button"
+            class="text-white bg-gradient-to-r from-pink-400 via-pink-500 to-pink-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-pink-300 dark:focus:ring-pink-800 font-medium rounded-lg text-2xl px-10 py-2.5 text-center me-2 mb-2"
+          >
+            0
+          </button>
+        </div>
+      </div>
+    </section>
+    <script src="js.js"></script>
+  </body>
+</html>
+l
