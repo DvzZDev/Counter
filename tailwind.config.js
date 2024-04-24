@@ -1,6 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["./*.{html,js}"],
+
   theme: {
     extend: {
       colors: {
@@ -19,13 +20,13 @@ module.exports = {
         },
       },
       fontFamily: {
-        'kalam': ['Kalam', 'cursive']
+        kalam: ["Kalam", "cursive"],
       },
       fontWeight: {
-        'light': 300,
-        'normal': 400,
-        'bold': 700,
-      }
+        light: 300,
+        normal: 400,
+        bold: 700,
+      },
     },
   },
   plugins: [],
